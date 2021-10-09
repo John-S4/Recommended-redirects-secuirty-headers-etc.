@@ -26,7 +26,6 @@ Header always set Content-Security-Policy "default-src https: data: 'unsafe-inli
 Header always set X-Frame-Options "SAMEORIGIN"
 Header always set X-Xss-Protection "1; mode=block"
 Header always set X-Content-Type-Options "nosniff"
-Header set Referrer-Policy: no-referrer-when-downgrade
 Header set Feature-Policy: accelerometer 'none'; camera 'none'; microphone 'none'; usb 'none'
 Header set Permissions-Policy "accelerometer=(), camera=(), microphone=(), usb=(), interest-cohort=()"
 Header set Referrer-Policy: strict-origin-when-cross-origin
